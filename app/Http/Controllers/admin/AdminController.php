@@ -8,6 +8,7 @@ use App\Http\Requests\AdminRequest;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\View\View;
 
@@ -69,6 +70,28 @@ class AdminController extends Controller
         }
 
 
+    }
+
+    public function deleteAdmin($user)
+    {
+        $admin = Admin::find($user);
+        if ($result = $admin->delete()){
+            return redirect()->route('admin.admins.admin_list');
+
+        }
+    }
+
+    public function updateAdmin($admin)
+    {
+        $admin = Admin::find($admin);
+
+        return View('admin.dashboard.update_admin',['admin'=>$admin]);
+    }
+    public function editAdmin(AdminRequest $request,$admin)
+    {
+        $admin = Admin::find($admin);
+
+        return View('admin.dashboard.update_admin',['admin'=>$admin]);
     }
 
     public function admins()

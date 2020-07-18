@@ -22,7 +22,7 @@
                     <td>{{$admin->nation_code}}</td>
                     <td>{{$admin->phone_number}}</td>
                     <td>فعال</td>
-                    <td><a href="#" class="btn btn-lg"><i class="fa fa-address-card" aria-hidden="true"></i></a> </td>
+                    <td><a href="#" class="btn btn-lg"><i class="fa fa-address-card" aria-hidden="true"></i></a><a href="{{route('admin.admins.delete_admin',$admin->id)}}" class="btn btn-lg"><i class="fa fa-trash" aria-hidden="true"></i></a><a href="{{route('admin.admins.update_admin',$admin->id)}}" class="btn btn-lg"><i class="fa fa-edit" aria-hidden="true"></i></a> </td>
                 </tr>
             @endforeach
             </tbody>

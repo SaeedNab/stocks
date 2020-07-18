@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc81d869-9ca8-4bdf-a8d2-7c321cc2af4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/admins.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/create_admin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/new_users.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/user_details.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/users.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/update_admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_08_144311_create_admins_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_08_144311_create_admins_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard/admins.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/admins.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,17 +152,17 @@
     <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\exchange\resources\views\admin\dashboard" />
-      <recent name="C:\xampp\htdocs\exchange\resources\views\user\layouts" />
-      <recent name="C:\xampp\htdocs\exchange\resources\views\admin\layouts" />
-      <recent name="C:\xampp\htdocs\exchange\resources\views\admin\auth" />
-      <recent name="C:\xampp\htdocs\exchange\resources\views\user\auth" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\exchange\public\assets\admin\css" />
       <recent name="C:\xampp\htdocs\exchange\public\assets\admin\css\bootstrap" />
       <recent name="C:\xampp\htdocs\exchange\resources\views\user\auth" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\stocks\resources\views\admin\dashboard" />
+      <recent name="C:\xampp\htdocs\exchange\resources\views\admin\dashboard" />
+      <recent name="C:\xampp\htdocs\exchange\resources\views\user\layouts" />
+      <recent name="C:\xampp\htdocs\exchange\resources\views\admin\layouts" />
+      <recent name="C:\xampp\htdocs\exchange\resources\views\admin\auth" />
     </key>
   </component>
   <component name="RunManager">
@@ -201,6 +195,8 @@
       <workItem from="1594727615741" duration="4957000" />
       <workItem from="1594744955854" duration="30000" />
       <workItem from="1595070003446" duration="5920000" />
+      <workItem from="1595091433762" duration="488000" />
+      <workItem from="1595092072460" duration="4809000" />
     </task>
     <servers />
   </component>
@@ -216,6 +212,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="278" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594377189760" />
+    <state x="598" y="114" key="CommitChangelistDialog2" timestamp="1595096192572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595096192572" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1594275629760">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -224,10 +224,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="451" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594732878757" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1594195501160">
+    <state x="463" y="165" key="SettingsEditor" timestamp="1595093252086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594195501160" />
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595093252086" />
     <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1594380378411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

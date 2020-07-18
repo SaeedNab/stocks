@@ -31,6 +31,9 @@ Route::group(['prefix'=>'admin','namespace'=>'admin'],function (){
     Route::get('admins','AdminController@admins')->name('admin.admins.admin_list')->middleware('auth.admin');
     Route::get('create_admin','AdminController@create_admin')->name('admin.admins.create_admin')->middleware('auth.admin');
     Route::post('store_admin','AdminController@store_admin')->name('admin.admins.store_admin')->middleware('auth.admin');
+    Route::get('update_admin/{admin}','AdminController@updateAdmin')->name('admin.admins.update_admin')->middleware('auth.admin');
+    Route::post('edit_admin/{admin}','AdminController@editAdmin')->name('admin.admins.edit_admin')->middleware('auth.admin');
+    Route::get('delete_admin/{admin}','AdminController@deleteAdmin')->name('admin.admins.delete_admin')->middleware('auth.admin');
 
     Route::get('index','AdminController@index')->name('admin.index')->middleware('auth.admin');
    Route::post('login','AuthenticationController@login_')->name('admin.auth.login');

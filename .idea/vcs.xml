@@ -5,5 +5,6 @@
     <mapping directory="$PROJECT_DIR$/exchange" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/exchange_main" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/exchange_new" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gitStock/stock" vcs="Git" />
   </component>
 </project>
