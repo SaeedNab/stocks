@@ -13,4 +13,14 @@ class UserController extends Controller
     {
         return View('user/dashboard/index');
     }
+
+    public function showTop()
+    {
+        return View('user.dashboard.top');
+    }
+
+    public function showBelow()
+    {
+        return View('user.dashboard.below');
+    }
 }

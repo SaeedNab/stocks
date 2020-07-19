@@ -50,4 +50,6 @@ Route::group(['prefix'=>'user','namespace'=>'user'],function (){
     Route::get('forget_password','AuthenticationController@forgetPassword')->name('user.auth.forget_password');
     Route::post('register','AuthenticationController@register_')->name('user.auth.register');
     Route::get('dashboard','UserController@dashboard')->name('user.dashboard')->middleware('auth.user');
+    Route::get('show_top','UserController@showTop')->name('user.show_top')->middleware('auth.user');
+    Route::get('show_below','UserController@showBelow')->name('user.show_below')->middleware('auth.user');
 });

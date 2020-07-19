@@ -504,11 +504,10 @@
           <ul class="treeview-menu">
             <li class="active"><a href="{{route('admin.users.users_list')}}"><i class="mdi mdi-toggle-switch-off"></i>لیست کاربران</a></li>
             <li><a href="{{route('admin.users.new_users')}}"><i class="mdi mdi-toggle-switch-off"></i>کاربران تایید نشده </a></li>
-{{--            <li><a href="index-3.html"><i class="mdi mdi-toggle-switch-off"></i>زیر مجموعه ها</a></li>--}}
           </ul>
         </li>
 
-@if(\Illuminate\Support\Facades\Auth::guard('admin')->user()->role == 0))
+@if(\Illuminate\Support\Facades\Auth::guard('admin')->user()->role == 0)
         <li class="treeview">
           <a href="#">
             <i class="mdi mdi-tune-vertical"></i>
