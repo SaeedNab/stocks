@@ -37,6 +37,7 @@ Route::group(['prefix'=>'admin','namespace'=>'admin'],function (){
 
     Route::get('index','AdminController@index')->name('admin.index')->middleware('auth.admin');
    Route::post('login','AuthenticationController@login_')->name('admin.auth.login');
+   Route::get('logout','AuthenticationController@logout')->name('admin.auth.logout');
    Route::post('register','AuthenticationController@register_')->name('admin.auth.register');
    Route::get('dashboard','AdminController@dashboard')->name('admin.dashboard');
 

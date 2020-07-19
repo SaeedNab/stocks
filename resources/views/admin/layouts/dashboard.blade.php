@@ -508,7 +508,7 @@
           </ul>
         </li>
 
-
+@if(\Illuminate\Support\Facades\Auth::guard('admin')->user()->role == 0))
         <li class="treeview">
           <a href="#">
             <i class="mdi mdi-tune-vertical"></i>
@@ -523,6 +523,7 @@
 
           </ul>
         </li>
+          @endif
         <li class="treeview">
           <a href="#">
             <i class="mdi mdi-tune-vertical"></i>
@@ -552,7 +553,7 @@
 
 
 		<li>
-          <a href="pages/auth_login.html">
+          <a href="{{route('admin.auth.logout')}}">
             <i class="mdi mdi-directions"></i>
 			<span style="font-family: iran">خروج</span>
           </a>

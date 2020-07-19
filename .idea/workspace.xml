@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc81d869-9ca8-4bdf-a8d2-7c321cc2af4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/update_admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard/admins.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard/admins.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/AuthenticationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/AuthenticationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/dashboard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +194,8 @@
       <workItem from="1594744955854" duration="30000" />
       <workItem from="1595070003446" duration="5920000" />
       <workItem from="1595091433762" duration="488000" />
-      <workItem from="1595092072460" duration="4809000" />
+      <workItem from="1595092072460" duration="4888000" />
+      <workItem from="1595143750833" duration="886000" />
     </task>
     <servers />
   </component>
@@ -232,10 +231,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594380378411" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1594744954997">
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1595143750825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594744954997" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595143750825" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595070512069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

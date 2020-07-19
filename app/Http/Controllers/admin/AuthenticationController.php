@@ -20,13 +20,7 @@ class AuthenticationController extends Controller
         $this->middleware('guest.admin')->except('logout');
 
     }
-    public function Logout(Request $request)
-    {
-        auth('admin')->logout();
-        return redirect()->route('admin.auth.login_form');
 
-        // do something ...
-    }
 
     public function login()
     {
@@ -59,6 +53,13 @@ class AuthenticationController extends Controller
     public function forgetPassword()
     {
         return View('user/auth/forget_password');
+    }
+    public function Logout(Request $request)
+    {
+        Auth::guard('admin')->logout();
+        return redirect()->route('admin.auth.login_form');
+
+        // do something ...
     }
 
 }
